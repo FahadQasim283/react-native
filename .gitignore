@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-/lib/db
+lib/db
 
 # Expo
 .expo/
