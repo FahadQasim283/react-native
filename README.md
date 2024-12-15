@@ -6,7 +6,7 @@ This project is a simple articles management application built using JavaScript.
 
 ## Features
 
-- Fetch articles from an API or data source.
+- Fetch articles from firebase.
 - Store and manage articles in the application state using Redux.
 - Easy to extend and integrate with other components.
 
