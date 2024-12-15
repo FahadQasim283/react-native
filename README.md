@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple articles management application built using JavaScript. It utilizes a Redux reducer to manage the state of articles within the application. The primary functionality includes fetching articles and storing them in the application's state.
+This project is a simple articles management application built using JavaScript. It utilizes a Redux Saga to manage the state of articles within the application. The primary functionality includes fetching articles and storing them in the application's state.
 
 ## Features
 
