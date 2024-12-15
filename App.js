@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from "@react-navigation/native";
+import { UserRoleProvider } from "./lib/assignment/q2/usercontext";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import { AdminScreen, HomeScreen, UserScreen } from "./lib/assignment/q2/home";
+import CustomDrawer from "./lib/assignment/q2/customdrawer";
+import LoginPage from "./lib/assignment/q2/login";
 
-export default function App() {
+const Drawer = createDrawerNavigator();
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <UserRoleProvider>
+      <NavigationContainer>
+        <Drawer.Navigator
+          drawerContent={(props) => <CustomDrawer {...props} />}
+        >
+          <Drawer.Screen name="Home" component={HomeScreen} />
+          <Drawer.Screen name="User " component={UserScreen} />
+          <Drawer.Screen name="Admin" component={AdminScreen} />
+        </Drawer.Navigator>
+      </NavigationContainer>
+    </UserRoleProvider>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
+export default App;

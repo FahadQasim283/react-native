@@ -1,0 +1,162 @@
+{
+  "articles": [
+    {
+      "author": "Dr. Sarah Khan",
+      "id": "a001",
+      "tags": ["mindfulness", "anxiety", "mental health"],
+      "title": "How to Reduce Anxiety with Mindfulness",
+      "url": "https://example.com/reduce-anxiety"
+    },
+    {
+      "author": "John Doe",
+      "id": "a002",
+      "tags": ["breathing exercises", "stress relief"],
+      "title": "Top 5 Breathing Exercises for Stress Relief",
+      "url": "https://example.com/stress-relief-breathing"
+    },
+    {
+      "author": "Jane Smith",
+      "id": "a003",
+      "tags": ["depression", "children", "mental health"],
+      "title": "Helping Children Cope with Depression",
+      "url": "https://example.com/children-depression"
+    }
+  ],
+  "community": [
+    {
+      "description": "A community to share and discuss anxiety coping strategies.",
+      "group_id": "c001",
+      "group_name": "Anxiety Support Group",
+      "members": ["u001", "u002"]
+    },
+    {
+      "description": "For those who practice or are interested in mindfulness and meditation.",
+      "group_id": "c002",
+      "group_name": "Mindfulness Practitioners",
+      "members": ["u001", "u003"]
+    },
+    {
+      "description": "Focused on mental health support for children and teenagers.",
+      "group_id": "c003",
+      "group_name": "Youth Mental Health",
+      "members": ["u003"]
+    }
+  ],
+  "quotes": [
+    {
+      "author": "Nelson Mandela",
+      "id": 1,
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall."
+    },
+    {
+      "author": "Unknown",
+      "id": 2,
+      "text": "You are not alone. You are seen. You are heard. You are loved."
+    },
+    {
+      "author": "Unknown",
+      "id": 3,
+      "text": "It's okay to not be okay. Acknowledge your feelings and give yourself grace."
+    },
+    {
+      "author": "Unknown",
+      "id": 4,
+      "text": "Your mental health is a priority. Your happiness is essential. Your self-care is a necessity."
+    },
+    {
+      "author": "Unknown",
+      "id": 5,
+      "text": "Healing takes time, and asking for help is a courageous step."
+    }
+  ],
+  "users": [
+    {
+      "age": 22,
+      "goals": [
+        "reduce anxiety",
+        "improve sleep quality",
+        "practice gratitude"
+      ],
+      "health_tracking": [
+        {
+          "activities": ["morning yoga", "evening meditation"],
+          "date": "2024-11-18",
+          "mood": "happy",
+          "sleep_hours": 7,
+          "symptoms": ["slight headache"]
+        },
+        {
+          "activities": ["mindfulness journaling"],
+          "date": "2024-11-17",
+          "mood": "anxious",
+          "sleep_hours": 5,
+          "symptoms": ["restlessness", "fatigue"]
+        }
+      ],
+      "id": "u001",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcyI9Cvp53aaP9XeRn-ZKbJDH2QaWC72O26A&s",
+      "interests": ["mindfulness", "yoga", "journaling"],
+      "location": "Attock",
+      "name": "Fahad"
+    },
+    {
+      "age": 21,
+      "goals": [
+        "manage stress",
+        "enhance self-esteem",
+        "develop coping strategies"
+      ],
+      "health_tracking": [
+        {
+          "activities": ["painting", "deep breathing exercises"],
+          "date": "2024-11-18",
+          "mood": "calm",
+          "sleep_hours": 8,
+          "symptoms": ["none"]
+        },
+        {
+          "activities": ["therapy session", "journaling"],
+          "date": "2024-11-17",
+          "mood": "stressed",
+          "sleep_hours": 6,
+          "symptoms": ["tight chest"]
+        }
+      ],
+      "id": "u002",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTEVbF72hCy3GXM1ULkLGctf-4Nl6J5g_ykQ&s",
+      "interests": ["therapy", "self-care", "art"],
+      "location": "Attock",
+      "name": "Maryam"
+    },
+    {
+      "age": 10,
+      "goals": [
+        "overcome depression",
+        "build resilience",
+        "connect with others"
+      ],
+      "health_tracking": [
+        {
+          "activities": ["guided meditation", "book reading"],
+          "date": "2024-11-18",
+          "mood": "sad",
+          "sleep_hours": 9,
+          "symptoms": ["feeling lonely"]
+        },
+        {
+          "activities": ["outdoor exercise", "talk with counselor"],
+          "date": "2024-11-17",
+          "mood": "hopeful",
+          "sleep_hours": 8,
+          "symptoms": ["none"]
+        }
+      ],
+      "id": "u003",
+      "imageUrl": "https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-in-the-style-of-2d-game-art-image_2884743.jpg",
+      "interests": ["meditation", "exercise", "reading"],
+      "location": "Islamabad",
+      "name": "Ali"
+    }
+  ],
+  "admin": [{ "location": "Attock", "name": "Fahad" }]
+}
